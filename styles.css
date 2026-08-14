@@ -88,7 +88,7 @@ footer { margin: 0 4.2vw; padding: 22px 0; border-top: 1px solid var(--line); di
   .hero-copy { padding: 0; }
   .hero h1 { font-size: clamp(62px, 18vw, 78px); line-height: .8; }
   .hero-intro { margin-top: 26px; }
-  .hero-image { min-height: 0; aspect-ratio: 5 / 4; }
+  .hero-image { align-self: stretch; width: 100%; min-height: 0; aspect-ratio: 5 / 4; }
   .work-section { padding: 115px 22px; }
   .section-heading { display: block; margin-bottom: 42px; }
   .section-heading h2 { margin-bottom: 25px; }
