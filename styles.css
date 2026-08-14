@@ -49,6 +49,14 @@ h2 { font-family: var(--serif); font-size: clamp(54px, 7vw, 105px); letter-spaci
 .project-title { align-items: end; }
 .project h3 { font-family: var(--serif); font-size: clamp(43px, 5vw, 77px); letter-spacing: -.045em; line-height: .85; text-transform: none; margin: 0; }
 .project-title p { margin: 0; text-align: right; opacity: .85; }
+.more-places { margin-top: 20px; padding-top: 16vh; }
+.more-places-heading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 30px; }
+.more-places-heading .eyebrow { margin: 0; }
+.more-places-heading a { padding-bottom: 2px; border-bottom: 1px solid var(--ink); text-transform: uppercase; letter-spacing: .06em; }
+.more-places-heading span { margin-left: 25px; font-size: 14px; }
+.more-places-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.more-place { aspect-ratio: .74 / 1; transition: transform .45s ease; }
+.more-place:hover { transform: translateY(-5px); }
 .tone-rust { background: linear-gradient(145deg, #d8ab77, #894724 48%, #25271e); }
 .tone-rust::before { background: radial-gradient(ellipse at 25% 30%, rgba(255,225,167,.7), transparent 19%), linear-gradient(155deg, transparent 32%, rgba(32,20,15,.55)); }
 .tone-moss { background: linear-gradient(145deg, #b5b781, #5f754e 45%, #1d3027); }
@@ -103,6 +111,10 @@ footer { margin: 0 4.2vw; padding: 22px 0; border-top: 1px solid var(--line); di
   .project, .project-wide { min-height: 75svh; margin-bottom: 14px; }
   .project-title { display: block; }
   .project-title p { text-align: left; margin-top: 9px; }
+  .more-places { margin-top: 0; padding-top: 90px; }
+  .more-places-heading { display: block; margin-bottom: 25px; }
+  .more-places-heading a { display: inline-block; margin-top: 4px; }
+  .more-places-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .about-page-hero { display: flex; flex-direction: column; align-items: stretch; min-height: auto; padding: 70px 22px 90px; gap: 56px; }
   .about-page-title { padding: 0; }
   .about-page-title h1 { font-size: clamp(67px, 19vw, 88px); line-height: .8; }
