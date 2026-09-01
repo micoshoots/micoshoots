@@ -43,7 +43,7 @@ em { font-style: italic; }
 .section-heading .eyebrow { grid-column: 1 / -1; }
 .section-heading > p:last-child { max-width: 220px; margin: 0 0 3px; color: #55514a; }
 .photo-grid { columns: 3; column-gap: 20px; }
-.gallery-photo-grid { columns: 4; }
+.gallery-photo-grid { columns: 3; }
 .photo-card { display: block; break-inside: avoid; margin: 0 0 20px; background: rgba(27,26,24,.08); }
 .photo-card img { display: block; width: 100%; height: auto; }
 .home-photo-grid .photo-card { transition: transform .35s ease; }
